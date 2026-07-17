@@ -1,1 +1,3 @@
-alert(whatcha looking for?)
+// alert("whatcha looking for?");
+console.log("hello fromjs");
+
