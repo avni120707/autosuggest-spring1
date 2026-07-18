@@ -1,5 +1,3 @@
-// alert("Hello guysss");
-
 console.log("hello from JS!")
 
 var users = [
@@ -62,6 +60,4 @@ function randomUser(){
         .catch(function(err){
             console.log(err);
         })
-
     }
- 
