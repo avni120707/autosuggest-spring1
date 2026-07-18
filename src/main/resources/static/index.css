@@ -1,3 +1,52 @@
-h1{
-    color: rgb(196, 87, 96);
+body{
+    margin: 0px;
+    background-color: rgb(168, 233, 187);
+}
+
+h1 {
+    color: rgb(235, 47, 125);
+}
+
+.navbar{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(80, 80, 105);
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(231, 117, 123);
+}
+
+.navbar a{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(154, 179, 216);
+    font-size: 20px;
+}
+.navbar a:hover{
+    color: rgb(235, 47, 125);
+    background-color:rgb(180, 147, 211);
+}
+.card{
+    border: 5px solid rgb(59, 59, 75);
+    width: 350px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(231, 228, 175);
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.card img{
+    width: 100%;
+}
+.card button{
+    background-color: rgb(184, 173, 204);
+    color: rgb(238, 136, 136);
+    border: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
 }
